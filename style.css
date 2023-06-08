@@ -1,0 +1,172 @@
+#profile-pic{
+    border-radius: 50%;
+    border: thick solid #27374D;
+    
+}
+
+#border{
+    width: 100%;
+}
+body{
+    background-color: #526D82;
+    background-color: #212529;
+}
+.pro{
+    text-decoration: underline;
+}
+#intro{
+    font-size:90px ;
+    font-family: serif;
+    text-align: left;
+    
+    color: #27374D;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+}
+@keyframes example {
+    from {font-size: 10px;}
+  to {font-size: 90px;}
+    
+}
+#programmer{
+    width: 0;
+    display: inline-block;
+    padding: 0%;
+
+    font-size: 50px;
+    font-family: monospace;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    border-right: 0.15em solid orange;
+    letter-spacing: 0.15em;
+    animation: typing 1s steps(30,end) , blink-caret 0.5s step-end infinite;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;}
+@keyframes typing {
+    from{
+        width:0;
+    }
+    to{
+        width: 100%;
+    }
+
+}
+@keyframes blink-caret {
+    from,
+    to{
+        border-color:transparent;
+    }
+    50%{
+        border-color: orange;
+    }
+    
+}
+
+.gradient-background {
+    margin-top: 0px;
+    background: linear-gradient(300deg, #00bfff, #6c76ff, #c7cfe9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+.text{
+    text-align: center;
+    font-size:90px ;
+    font-family: serif;
+    text-align: left;
+}
+
+.container-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    background-color: #212529;
+    
+}
+.item{
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+    
+}
+.skills{
+    background-color: #212529;
+}
+#my-skill{
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+    
+}
+.skill-topics{
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.programmer-img{
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+ul{
+    justify-content: center;
+    align-items: center;
+    list-style: square;
+    list-style-position: outside;
+    
+}
+.skill-content{
+    text-align: left;
+}
+
+#contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: monospace;
+    background-color:#212529 ;
+}
+#get{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    color:white
+}
+#para{
+    font-family: sans-serif;
+    padding: 20px;
+    margin-left: 200px;
+    justify-content:center ;
+    align-content: center;
+    display: flex;
+    color: #27374D
+}
+.tex-color{
+    color: #00bfff;
+}
