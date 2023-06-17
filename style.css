@@ -1,6 +1,5 @@
 #profile-pic{
-    border-radius: 50%;
-    border: thick solid #27374D;
+    border-radius: 10%;
     
 }
 
@@ -8,11 +7,13 @@
     width: 100%;
 }
 body{
-    background-color: #526D82;
-    background-color: #212529;
+    background-color: black;
+    color: white;
 }
+
 .pro{
     text-decoration: underline;
+    color: #9500ff;
 }
 #intro{
     font-size:90px ;
@@ -33,7 +34,6 @@ body{
     width: 0;
     display: inline-block;
     padding: 0%;
-
     font-size: 50px;
     font-family: monospace;
     text-align: left;
@@ -67,7 +67,7 @@ body{
 
 .gradient-background {
     margin-top: 0px;
-    background: linear-gradient(300deg, #00bfff, #6c76ff, #c7cfe9);
+    background: linear-gradient(45deg, #ff6200, #ff4c4c, #ff0084, #9500ff, #00a6ff);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
@@ -95,7 +95,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #212529;
+    
     
 }
 
@@ -103,7 +103,7 @@ body{
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr ;
-    background-color: #212529;
+    
     
 }
 .item{
@@ -112,21 +112,22 @@ body{
     justify-self: center;
     
 }
-.skills{
-    background-color: #212529;
-}
+
 #my-skill{
     text-align: center;
     margin: 20px;
     text-decoration: underline;
+    color: white;
     
 }
 .skill-topics{
     font-size: 40px;
     margin-bottom: 30px;
     margin-top: 20px;
+    color:   #ff4c68;
 }
 .programmer-img{
+    border-radius: 5%;
     height: 200px;
     float: left;
     margin-right: 30px;
@@ -139,6 +140,11 @@ ul{
     list-style-position: outside;
     
 }
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+}
 .skill-content{
     text-align: left;
 }
@@ -150,23 +156,28 @@ ul{
     text-align: center;
     margin-bottom: 0px;
     font-family: monospace;
-    background-color:#212529 ;
+    
 }
 #get{
+    font-size:70px;
+    font-family: serif;
+    font-weight: 900;
     margin-top: 0px;
     margin-bottom: 30px;
     text-decoration: underline;
     color:white
 }
+#contact-btn{margin-top: 20px;}
 #para{
-    font-family: sans-serif;
+    font-family: serif;
     padding: 20px;
-    margin-left: 200px;
+    margin-left:15%;
     justify-content:center ;
     align-content: center;
     display: flex;
-    color: #27374D
+    color: white;
 }
 .tex-color{
-    color: #00bfff;
+    color:   #ff4c68;
 }
+
